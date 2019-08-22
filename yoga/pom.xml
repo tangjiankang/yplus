@@ -17,7 +17,13 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-
+	<modules>
+		<module>app-controller</module>
+		<module>miniprogram-controller</module>
+		<module>order-service</module>
+		<module>user-service</module>
+		<module>wap-controller</module>
+	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
