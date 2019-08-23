@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/course-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/course-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yoga/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yoga/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yoga/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yoga/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +171,7 @@
       <workItem from="1566529932209" duration="8870000" />
       <workItem from="1566542307925" duration="50000" />
       <workItem from="1566542758178" duration="2938000" />
-      <workItem from="1566545886358" duration="2460000" />
+      <workItem from="1566545886358" duration="3201000" />
     </task>
     <task id="LOCAL-00001" summary="delete main for service">
       <created>1566543472596</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566547332272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete main for service">
+      <created>1566548435577</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566548435577</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

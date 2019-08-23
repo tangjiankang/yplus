@@ -11,11 +11,11 @@
         <option value="$PROJECT_DIR$/yoga/wap-controller/pom.xml" />
         <option value="$PROJECT_DIR$/yoga/order-service/pom.xml" />
         <option value="$PROJECT_DIR$/yoga/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/course/course-service/pom.xml" />
         <option value="$PROJECT_DIR$/course/index-controller/pom.xml" />
         <option value="$PROJECT_DIR$/course/sass-controller/pom.xml" />
         <option value="$PROJECT_DIR$/course/manager-controller/pom.xml" />
         <option value="$PROJECT_DIR$/server/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/course/course-service/pom.xml" />
       </list>
     </option>
   </component>
