@@ -12,7 +12,6 @@
         <module name="order-service" />
         <module name="mini-controller" />
         <module name="manager-controller" />
-        <module name="course" />
         <module name="user-service" />
         <module name="course-service" />
         <module name="wap-controller" />

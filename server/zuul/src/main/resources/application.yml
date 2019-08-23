@@ -14,4 +14,4 @@ zuul:
   routes:
     api:
       path: /**
-      service-id: wap-controller,app-controller
+      service-id: app-controller

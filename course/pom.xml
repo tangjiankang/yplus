@@ -16,4 +16,5 @@
     </modules>
     <groupId>com.yplus.course</groupId>
     <artifactId>course</artifactId>
+    <packaging>pom</packaging>
 </project>
