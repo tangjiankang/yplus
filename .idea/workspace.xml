@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/src/main/java/com/server/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/zuul/src/test/java/com/server/ZuulApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yoga/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yoga/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +43,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Po6fYoYkh2ASmjyuVqrzyNA0xU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -41,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/yoga/wap-controller/src/main/java/com/yplus/yoga" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot_cloud" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -55,6 +70,7 @@
       <recent name="com.yplus.yoga.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProject\yplus\server\zuul\src\main\resources" />
       <recent name="C:\Users\USER\IdeaProject\yplus\server\server-1\src\main\resources" />
       <recent name="C:\Users\USER\IdeaProject\yplus\yoga\wap-controller\src\main\resources" />
       <recent name="C:\Users\USER\IdeaProject\yplus\yoga\mini-controller\src\main\resources" />
@@ -73,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WapControllerApplication">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration name="AppControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="app-controller" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.AppControllerApplication" />
@@ -144,6 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -158,7 +181,8 @@
       <workItem from="1566528208022" duration="1663000" />
       <workItem from="1566529932209" duration="8870000" />
       <workItem from="1566542307925" duration="50000" />
-      <workItem from="1566542758178" duration="763000" />
+      <workItem from="1566542758178" duration="2938000" />
+      <workItem from="1566545886358" duration="1318000" />
     </task>
     <task id="LOCAL-00001" summary="delete main for service">
       <created>1566543472596</created>
@@ -167,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566543472596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete main for service">
+      <created>1566543542382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566543542382</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,13 +209,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="delete main for service" />
     <option name="LAST_COMMIT_MESSAGE" value="delete main for service" />
   </component>
