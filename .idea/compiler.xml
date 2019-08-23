@@ -7,16 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sass-controller" />
+        <module name="index-controller" />
         <module name="server-1" />
         <module name="app-controller" />
         <module name="order-service" />
         <module name="mini-controller" />
-        <module name="manager-controller" />
         <module name="user-service" />
+        <module name="manager-controller" />
         <module name="course-service" />
         <module name="wap-controller" />
         <module name="zuul" />
-        <module name="index-controller" />
       </profile>
     </annotationProcessing>
   </component>
