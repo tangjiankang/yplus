@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yplus.yoga</groupId>
-    <artifactId>app-controller</artifactId>
+    <artifactId>mini-controller</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>app-controller</name>
+    <name>mini-controller</name>
     <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
@@ -24,7 +24,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.1.7.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -34,7 +33,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <version>2.1.7.RELEASE</version>
             <scope>test</scope>
         </dependency>
         <dependency>

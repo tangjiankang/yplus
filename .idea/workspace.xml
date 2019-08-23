@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Po6fYoYkh2ASmjyuVqrzyNA0xU" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/yoga/wap-controller/src/main/java/com/yplus/yoga" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yplus.yoga" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yplus.yoga.controller" />
+      <recent name="com.yplus.yoga" />
+      <recent name="com.yplus.yoga.service.impl" />
+      <recent name="com.yplus.yoga.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProject\yplus\server\server-1\src\main\resources" />
+      <recent name="C:\Users\USER\IdeaProject\yplus\yoga\wap-controller\src\main\resources" />
+      <recent name="C:\Users\USER\IdeaProject\yplus\yoga\mini-controller\src\main\resources" />
+      <recent name="C:\Users\USER\IdeaProject\yplus\yoga\app-controller\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WapControllerApplication">
+    <configuration name="AppControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.AppControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="course-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.CourseServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="index-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.IndexControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="manager-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.ManagerControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mini-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.MiniControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SassControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sass-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.SassControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.Server1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WapControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wap-controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.WapControllerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="" />
+      <created>1566528205304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566528205304</updated>
+      <workItem from="1566528208022" duration="1663000" />
+      <workItem from="1566529932209" duration="8870000" />
+      <workItem from="1566542307925" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
