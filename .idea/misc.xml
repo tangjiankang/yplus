@@ -34,6 +34,7 @@
       <set>
         <option value="$PROJECT_DIR$/controller/pom.xml" />
         <option value="$PROJECT_DIR$/course/pom.xml" />
+        <option value="$PROJECT_DIR$/modules/util-module/pom.xml" />
         <option value="$PROJECT_DIR$/yoga/pom.xml" />
       </set>
     </option>
