@@ -14,4 +14,4 @@ zuul:
   routes:
     api:
       path: /**
-      service-id: app-controller
+      service-id: yplus-app-api
