@@ -6,24 +6,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sass-controller" />
-        <module name="index-controller" />
-        <module name="server-1" />
-        <module name="app-controller" />
-        <module name="order-service" />
-        <module name="mini-controller" />
+        <module name="yplus-app-api" />
+        <module name="yplus-manager-web" />
         <module name="user-service" />
-        <module name="manager-controller" />
+        <module name="yplus-saas-web" />
+        <module name="yplus-mini-api" />
+        <module name="yplus-course-manager-api" />
+        <module name="yplus-main-manager-api" />
         <module name="course-service" />
-        <module name="wap-controller" />
         <module name="zuul" />
+        <module name="server-1" />
+        <module name="order-service" />
+        <module name="yplus-course-index-api" />
+        <module name="yplus-main-index-api" />
+        <module name="yplus-wap-api" />
+        <module name="modules" />
+        <module name="yplus-index-api" />
+        <module name="yplus-course-saas-api" />
+        <module name="api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-controller" target="1.8" />
+      <module name="controller" target="1.5" />
+      <module name="course" target="1.5" />
+      <module name="index-controller" target="1.8" />
+      <module name="manager-controller" target="1.8" />
+      <module name="mini-controller" target="1.8" />
+      <module name="sass-controller" target="1.8" />
+      <module name="wap-controller" target="1.8" />
+      <module name="yoga" target="1.8" />
+      <module name="yplus-mamager-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app-controller" options="-parameters" />
-      <module name="course-service" options="" />
+      <module name="course-service" options="-parameters" />
       <module name="index-controller" options="-parameters" />
       <module name="manager-controller" options="-parameters" />
       <module name="mini-controller" options="-parameters" />
@@ -32,6 +51,18 @@
       <module name="server-1" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="wap-controller" options="-parameters" />
+      <module name="yplus-app-api" options="-parameters" />
+      <module name="yplus-course-index-api" options="-parameters" />
+      <module name="yplus-course-manager-api" options="-parameters" />
+      <module name="yplus-course-saas-api" options="-parameters" />
+      <module name="yplus-index-api" options="-parameters" />
+      <module name="yplus-main-index-api" options="-parameters" />
+      <module name="yplus-main-manager-api" options="-parameters" />
+      <module name="yplus-mamager-web" options="-parameters" />
+      <module name="yplus-manager-web" options="-parameters" />
+      <module name="yplus-mini-api" options="-parameters" />
+      <module name="yplus-saas-web" options="-parameters" />
+      <module name="yplus-wap-api" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

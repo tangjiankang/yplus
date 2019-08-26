@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>yplus</artifactId>
+        <groupId>com.yplus</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yplus</groupId>
+    <artifactId>api</artifactId>
+
+    <modules>
+        <module>yplus-app-api</module>
+        <module>yplus-course-index-api</module>
+        <module>yplus-course-manager-api</module>
+        <module>yplus-course-saas-api</module>
+        <module>yplus-index-api</module>
+        <module>yplus-main-index-api</module>
+        <module>yplus-main-manager-api</module>
+        <module>yplus-manager-web</module>
+        <module>yplus-mini-api</module>
+        <module>yplus-saas-web</module>
+        <module>yplus-wap-api</module>
+    </modules>
+
+</project>

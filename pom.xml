@@ -10,6 +10,8 @@
     <modules>
         <module>yoga</module>
         <module>server</module>
-        <module>course</module>
+        <module>modules</module>
+        <module>controller</module>
+        <module>api</module>
     </modules>
 </project>
