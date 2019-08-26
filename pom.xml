@@ -8,10 +8,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>yoga</module>
         <module>server</module>
         <module>modules</module>
-        <module>controller</module>
         <module>api</module>
     </modules>
 </project>

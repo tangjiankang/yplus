@@ -1,4 +1,4 @@
-package com.plus;
+package com.yplus.order;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CourseServiceApplicationTests {
+public class OrderServiceApplicationTests {
 
     @Test
     public void contextLoads() {
