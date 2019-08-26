@@ -1,4 +1,4 @@
-package com.server;
+package com.yplus.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

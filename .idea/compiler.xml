@@ -9,12 +9,14 @@
         <module name="yplus-manager-web" />
         <module name="user-service" />
         <module name="yplus-saas-web" />
+        <module name="util-module" />
         <module name="yplus-course-manager-api" />
         <module name="yplus-app-api" />
         <module name="yplus-main-manager-api" />
         <module name="course-service" />
         <module name="zuul" />
         <module name="server-1" />
+        <module name="server-2" />
         <module name="order-service" />
         <module name="yplus-course-index-api" />
         <module name="yplus-main-index-api" />
@@ -32,7 +34,7 @@
       <module name="manager-controller" target="1.8" />
       <module name="mini-controller" target="1.8" />
       <module name="sass-controller" target="1.8" />
-      <module name="util-module" target="1.5" />
+      <module name="util-module" target="1.8" />
       <module name="wap-controller" target="1.8" />
       <module name="yoga" target="1.8" />
       <module name="yplus-mamager-web" target="1.8" />
@@ -48,7 +50,9 @@
       <module name="order-service" options="-parameters" />
       <module name="sass-controller" options="-parameters" />
       <module name="server-1" options="-parameters" />
+      <module name="server-2" options="-parameters" />
       <module name="user-service" options="-parameters" />
+      <module name="util-module" options="-parameters" />
       <module name="wap-controller" options="-parameters" />
       <module name="yplus-app-api" options="-parameters" />
       <module name="yplus-course-index-api" options="-parameters" />
