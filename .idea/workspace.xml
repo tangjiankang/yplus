@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/entity/AuthUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/mapper/AuthUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/course-service/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/course-service/src/main/resources/mapper/AuthUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/plus/course/CourseServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/CourseServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/plus/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/plus/course/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/plus/course/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/plus/course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/plus/course/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/test/java/com/plus/course/CourseServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/test/java/com/yplus/course/CourseServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/CourseServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/CourseServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/mapper/CourseMapper.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/modules/course-service/src/test/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -111,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CourseServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="course" />
       <option name="VM_PARAMETERS" />
@@ -456,7 +441,8 @@
       <workItem from="1566780582893" duration="5050000" />
       <workItem from="1566786041556" duration="4558000" />
       <workItem from="1566791029995" duration="160000" />
-      <workItem from="1566791388783" duration="16601000" />
+      <workItem from="1566791388783" duration="16711000" />
+      <workItem from="1566814980036" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="delete main for service">
       <created>1566543472596</created>
@@ -563,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566810818494</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add service">
+      <created>1566814905017</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566814905017</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

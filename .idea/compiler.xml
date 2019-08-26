@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yplus-app-api" />
         <module name="yplus-manager-web" />
         <module name="user-service" />
         <module name="yplus-saas-web" />
         <module name="util-module" />
         <module name="yplus-course-manager-api" />
+        <module name="yplus-app-api" />
         <module name="yplus-main-manager-api" />
         <module name="course-service" />
         <module name="yplus-index-api" />
