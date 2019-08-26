@@ -10,6 +10,7 @@
         <module name="yplus-manager-web" />
         <module name="user-service" />
         <module name="yplus-saas-web" />
+        <module name="util-module" />
         <module name="yplus-mini-api" />
         <module name="yplus-course-manager-api" />
         <module name="yplus-main-manager-api" />
@@ -20,10 +21,8 @@
         <module name="yplus-course-index-api" />
         <module name="yplus-main-index-api" />
         <module name="yplus-wap-api" />
-        <module name="modules" />
         <module name="yplus-index-api" />
         <module name="yplus-course-saas-api" />
-        <module name="api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

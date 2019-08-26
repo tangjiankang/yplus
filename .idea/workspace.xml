@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/util-module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/modules/order-service/src/main/java/com/yplus" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../anch-ldap-webservice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -370,7 +372,7 @@
       <workItem from="1566542758178" duration="2938000" />
       <workItem from="1566545886358" duration="5219000" />
       <workItem from="1566551349246" duration="3317000" />
-      <workItem from="1566780582893" duration="3204000" />
+      <workItem from="1566780582893" duration="3932000" />
     </task>
     <task id="LOCAL-00001" summary="delete main for service">
       <created>1566543472596</created>
@@ -435,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566783491091</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add service">
+      <created>1566783827469</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566783827469</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
