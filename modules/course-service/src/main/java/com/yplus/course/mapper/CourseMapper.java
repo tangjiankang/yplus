@@ -1,4 +1,4 @@
-package com.plus.course.mapper;
+package com.yplus.course.mapper;
 
 public interface CourseMapper {
     String test();

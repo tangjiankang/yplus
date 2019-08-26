@@ -1,10 +1,12 @@
-package com.plus.course.controller;
+package com.yplus.course.controller;
 
-import com.plus.course.service.CourseService;
+import com.yplus.course.entity.AuthUser;
+import com.yplus.course.service.CourseService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @RestController
 public class CourseController {
@@ -13,7 +15,7 @@ public class CourseController {
     private CourseService courseService;
 
     @RequestMapping("/test")
-    public String test(){
-        return courseService.test();
+    public List<AuthUser> test(){
+        return courseService.selectAll();
     }
 }

@@ -1,4 +1,4 @@
-package com.plus.course;
+package com.yplus.course;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.plus.course;
+package com.yplus.course;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
