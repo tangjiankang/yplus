@@ -16,7 +16,7 @@
         <module>course-service</module>
         <module>order-service</module>
         <module>user-service</module>
-        <module>util-module</module>
+        <module>util</module>
     </modules>
 
 

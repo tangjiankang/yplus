@@ -2,37 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/src/main/java/com/yplus/UtilModuleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/util-module/src/test/java/com/yplus/UtilModuleApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/src/main/java/com/yplus/server/Server2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server-2/src/test/java/com/yplus/server/Server2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/util/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/util/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/util/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/yplus-wap-api/src/main/java/com/yplus/YplusWapApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/yplus-wap-api/src/main/java/com/yplus/YplusWapApiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server-1/src/main/java/com/server/Server1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/server-1/src/main/java/com/yplus/server/Server1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server-1/src/test/java/com/server/Server1ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/server-1/src/test/java/com/yplus/server/Server1ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/util-module/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/util/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/util-module/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/modules/util/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/util-module/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/util/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/util-module/pom.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/server/server-1/src/test/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/server-2/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../anch-ldap-webservice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -259,6 +241,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.server.Server1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.Server1Application" />
@@ -303,6 +292,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="util" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.util.UtilApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,6 +427,7 @@
       <workItem from="1566551349246" duration="3317000" />
       <workItem from="1566780582893" duration="5050000" />
       <workItem from="1566786041556" duration="4558000" />
+      <workItem from="1566791029995" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="delete main for service">
       <created>1566543472596</created>

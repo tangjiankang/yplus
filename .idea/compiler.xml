@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="util" />
+        <module name="yplus-index-api" />
         <module name="yplus-manager-web" />
         <module name="user-service" />
         <module name="yplus-saas-web" />
@@ -14,15 +16,14 @@
         <module name="yplus-app-api" />
         <module name="yplus-main-manager-api" />
         <module name="course-service" />
-        <module name="zuul" />
-        <module name="server-1" />
         <module name="server-2" />
+        <module name="server-1" />
         <module name="order-service" />
         <module name="yplus-course-index-api" />
         <module name="yplus-main-index-api" />
         <module name="yplus-mini-api" />
         <module name="yplus-wap-api" />
-        <module name="yplus-index-api" />
+        <module name="zuul" />
         <module name="yplus-course-saas-api" />
       </profile>
     </annotationProcessing>
@@ -52,6 +53,7 @@
       <module name="server-1" options="-parameters" />
       <module name="server-2" options="-parameters" />
       <module name="user-service" options="-parameters" />
+      <module name="util" options="-parameters" />
       <module name="util-module" options="-parameters" />
       <module name="wap-controller" options="-parameters" />
       <module name="yplus-app-api" options="-parameters" />
