@@ -11,5 +11,6 @@
         <module>server</module>
         <module>modules</module>
         <module>api</module>
+        <module>common</module>
     </modules>
 </project>

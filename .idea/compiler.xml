@@ -12,12 +12,10 @@
         <module name="yplus-saas-web" />
         <module name="util-module" />
         <module name="yplus-course-manager-api" />
-        <module name="util" />
         <module name="yplus-main-manager-api" />
         <module name="course-service" />
         <module name="yplus-index-api" />
         <module name="server-1" />
-        <module name="server-2" />
         <module name="order-service" />
         <module name="yplus-course-index-api" />
         <module name="yplus-main-index-api" />
@@ -25,6 +23,7 @@
         <module name="yplus-wap-api" />
         <module name="zuul" />
         <module name="yplus-course-saas-api" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +34,8 @@
       <module name="manager-controller" target="1.8" />
       <module name="mini-controller" target="1.8" />
       <module name="sass-controller" target="1.8" />
+      <module name="server-2" target="1.8" />
+      <module name="util" target="1.8" />
       <module name="util-module" target="1.8" />
       <module name="wap-controller" target="1.8" />
       <module name="yoga" target="1.8" />
@@ -44,6 +45,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="app-controller" options="-parameters" />
+      <module name="common" options="-parameters" />
       <module name="course-service" options="-parameters" />
       <module name="index-controller" options="-parameters" />
       <module name="manager-controller" options="-parameters" />
