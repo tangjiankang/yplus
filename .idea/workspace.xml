@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/CourseServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/CourseServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.YplusAppApiApplication">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="course" />
       <option name="VM_PARAMETERS" />
@@ -443,6 +442,8 @@
       <workItem from="1566791029995" duration="160000" />
       <workItem from="1566791388783" duration="16711000" />
       <workItem from="1566814980036" duration="201000" />
+      <workItem from="1566867515512" duration="114000" />
+      <workItem from="1566867710170" duration="2174000" />
     </task>
     <task id="LOCAL-00001" summary="delete main for service">
       <created>1566543472596</created>
