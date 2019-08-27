@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yplus.user.mapper.AuthUserMapper">
+  <resultMap id="BaseResultMap" type="com.yplus.user.entity.AuthUser">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="club_id" jdbcType="BIGINT" property="clubId" />
+    <result column="post_id" jdbcType="BIGINT" property="postId" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="weixin_name" jdbcType="VARCHAR" property="weixinName" />
+    <result column="weixin_picture" jdbcType="VARCHAR" property="weixinPicture" />
+    <result column="gender" jdbcType="TINYINT" property="gender" />
+    <result column="birthday" jdbcType="TIMESTAMP" property="birthday" />
+    <result column="login_name" jdbcType="VARCHAR" property="loginName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="postcode" jdbcType="VARCHAR" property="postcode" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="tel" jdbcType="VARCHAR" property="tel" />
+    <result column="weixin_no" jdbcType="VARCHAR" property="weixinNo" />
+    <result column="picture" jdbcType="VARCHAR" property="picture" />
+    <result column="login_ip" jdbcType="VARCHAR" property="loginIp" />
+    <result column="last_login_time" jdbcType="TIMESTAMP" property="lastLoginTime" />
+    <result column="login_flag" jdbcType="TINYINT" property="loginFlag" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="is_consultant" jdbcType="TINYINT" property="isConsultant" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="created_dt" jdbcType="TIMESTAMP" property="createdDt" />
+    <result column="updated_by" jdbcType="VARCHAR" property="updatedBy" />
+    <result column="updated_dt" jdbcType="TIMESTAMP" property="updatedDt" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="del_flag" jdbcType="TINYINT" property="delFlag" />
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, club_id, post_id, code, name, nick_name, weixin_name, weixin_picture, gender, 
+    birthday, login_name, password, address, postcode, email, phone, tel, weixin_no, 
+    picture, login_ip, last_login_time, login_flag, status, is_consultant, created_by, 
+    created_dt, updated_by, updated_dt, remarks, del_flag
+  </sql>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from auth_user
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+ <select id="selectAll" resultMap="BaseResultMap">
+   select
+   <include refid="Base_Column_List" />
+   from auth_user
+ </select>
+</mapper>
