@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/entity/AuthUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/mapper/AuthUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user-service/src/main/resources/mapper/AuthUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/mapper/AuthUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/course-service/src/main/java/com/yplus/course/mapper/AuthUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user-service/src/main/java/com/yplus/user/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user-service/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="1bcbcabe-1795-4b3e-921e-799b09006136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oauth2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/Oauth2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/entity/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/yplus/oauth2/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/test/java/com/yplus/oauth2/Oauth2ApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +32,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
+        <option value="tangjianakng" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -54,7 +47,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Po6fYoYkh2ASmjyuVqrzyNA0xU" />
+  <component name="ProjectId" id="1Q8OuWIAckyV6SVvy8R47s2BaQb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -64,33 +57,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/modules/course-service/src/test/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/user-service/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../security-oauth2-credentials" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.yplus.yoga" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yplus.yoga.controller" />
-      <recent name="com.yplus.yoga" />
-      <recent name="com.yplus.yoga.service.impl" />
-      <recent name="com.yplus.yoga.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\IdeaProject\yplus\modules\user-service\src\main\resources" />
-      <recent name="C:\Users\USER\IdeaProject\yplus\modules\user-service\src\main\java\com\yplus\user" />
-      <recent name="C:\Users\USER\IdeaProject\yplus\modules\course-service\src\main\java\com\yplus\course" />
-      <recent name="C:\Users\USER\IdeaProject\yplus\modules\course-service\src\main\resources" />
-      <recent name="C:\Users\USER\IdeaProject\yplus\api\yplus-wap-api\src\main\resources" />
+      <recent name="C:\Users\USER\IdeaProject\app-v2\oauth2\src\main\resources" />
+      <recent name="C:\Users\USER\IdeaProject\app-v2\oauth2\src\main\java\com\yplus\oauth2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,476 +80,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication (2)">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="course" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="course" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="app-controller" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.AppControllerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.common.CommonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="course-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plus.CourseServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="course-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plus.course.CourseServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="course-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.CourseServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="course-service" />
+  <component name="RunManager" selected="Spring Boot.Oauth2Application">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.plus.course.*" />
+          <option name="PATTERN" value="com.yplus.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.plus.course.CourseServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.server.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="index-controller" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.IndexControllerApplication" />
+    <configuration name="Oauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.oauth2.Oauth2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="manager-controller" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.ManagerControllerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MiniControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mini-controller" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.MiniControllerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="order-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.OrderServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="order-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.order.OrderServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="order-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.OrderServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="order-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yplus.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.order.OrderServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SassControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sass-controller" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.course.SassControllerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server-1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.server.Server1Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server-1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.Server1Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="server-2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.server.Server2Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.user.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="user-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yplus.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.user.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="util" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.util.UtilApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilModuleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="util-module" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.UtilModuleApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WapControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="wap-controller" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.yoga.WapControllerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusAppApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-app-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusAppApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusCourseIndexApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-course-index-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusCourseIndexApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusCourseManagerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-course-manager-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusCourseManagerApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusCourseSaasApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-course-saas-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusCourseSaasApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusIndexApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-index-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusIndexApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusMainIndexApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-main-index-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusMainIndexApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusMainManagerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-main-manager-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusMainManagerApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusMamagerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-mamager-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusMamagerWebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusManagerWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-manager-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusManagerWebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusMiniApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-mini-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusMiniApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusSaasWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-saas-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusSaasWebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YplusWapApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="yplus-wap-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yplus.YplusWapApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zuul" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.ZuulApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e2493162-ed56-4181-adc3-c3696b754d1d" name="Default Changelist" comment="" />
-      <created>1566528205304</created>
+      <changelist id="1bcbcabe-1795-4b3e-921e-799b09006136" name="Default Changelist" comment="" />
+      <created>1567148979907</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566528205304</updated>
-      <workItem from="1566528208022" duration="1663000" />
-      <workItem from="1566529932209" duration="8870000" />
-      <workItem from="1566542307925" duration="50000" />
-      <workItem from="1566542758178" duration="2938000" />
-      <workItem from="1566545886358" duration="5219000" />
-      <workItem from="1566551349246" duration="3317000" />
-      <workItem from="1566780582893" duration="5050000" />
-      <workItem from="1566786041556" duration="4558000" />
-      <workItem from="1566791029995" duration="160000" />
-      <workItem from="1566791388783" duration="16711000" />
-      <workItem from="1566814980036" duration="201000" />
-      <workItem from="1566867515512" duration="114000" />
-      <workItem from="1566867710170" duration="6030000" />
+      <updated>1567148979907</updated>
+      <workItem from="1567148982741" duration="4640000" />
+      <workItem from="1567155054930" duration="3000000" />
     </task>
-    <task id="LOCAL-00001" summary="delete main for service">
-      <created>1566543472596</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1566543472596</updated>
-    </task>
-    <task id="LOCAL-00002" summary="delete main for service">
-      <created>1566543542382</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1566543542382</updated>
-    </task>
-    <task id="LOCAL-00003" summary="delete main for service">
-      <created>1566547332272</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1566547332272</updated>
-    </task>
-    <task id="LOCAL-00004" summary="delete main for service">
-      <created>1566548435577</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1566548435577</updated>
-    </task>
-    <task id="LOCAL-00005" summary="delete main for service">
-      <created>1566549166697</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1566549166697</updated>
-    </task>
-    <task id="LOCAL-00006" summary="delete main for service">
-      <created>1566552063060</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1566552063060</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add service">
-      <created>1566782880532</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1566782880532</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add service">
-      <created>1566783259115</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1566783259115</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add service">
-      <created>1566783491091</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1566783491091</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add service">
-      <created>1566783827469</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1566783827469</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add service">
-      <created>1566784584169</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1566784584169</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add service">
-      <created>1566787378920</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1566787378920</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add service">
-      <created>1566800055099</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1566800055099</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add service">
-      <created>1566801070650</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1566801070650</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add service">
-      <created>1566810818494</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1566810818494</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add service">
-      <created>1566814905017</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1566814905017</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add service">
-      <created>1566869997952</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1566869997952</updated>
-    </task>
-    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,8 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete main for service" />
-    <MESSAGE value="add service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add service" />
+    <MESSAGE value="添加oauth认证服务，待完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加oauth认证服务，待完善" />
   </component>
 </project>

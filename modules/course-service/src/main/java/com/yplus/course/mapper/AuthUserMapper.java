@@ -1,7 +1,6 @@
 package com.yplus.course.mapper;
 
-
-import com.yplus.course.entity.AuthUser;
+import com.yplus.common.user.entity.AuthUser;
 
 import java.util.List;
 

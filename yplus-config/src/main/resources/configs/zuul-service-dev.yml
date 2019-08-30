@@ -1,0 +1,8 @@
+server:
+  port: 9000
+
+zuul:
+  routes:
+    api:
+      path: /**
+      service-id: yplus-app-api

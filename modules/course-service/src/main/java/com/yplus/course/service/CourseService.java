@@ -1,6 +1,7 @@
 package com.yplus.course.service;
 
-import com.yplus.course.entity.AuthUser;
+
+import com.yplus.common.user.entity.AuthUser;
 
 import java.util.List;
 

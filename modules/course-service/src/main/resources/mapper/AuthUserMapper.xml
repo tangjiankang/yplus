@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yplus.course.mapper.AuthUserMapper">
-  <resultMap id="BaseResultMap" type="com.yplus.course.entity.AuthUser">
+  <resultMap id="BaseResultMap" type="com.yplus.common.user.entity.AuthUser">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="club_id" jdbcType="BIGINT" property="clubId" />
     <result column="post_id" jdbcType="BIGINT" property="postId" />

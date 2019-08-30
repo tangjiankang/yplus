@@ -1,6 +1,6 @@
 package com.yplus.course.controller;
 
-import com.yplus.course.entity.AuthUser;
+import com.yplus.common.user.entity.AuthUser;
 import com.yplus.course.service.CourseService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

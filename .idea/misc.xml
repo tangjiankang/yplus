@@ -1,48 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/server/server-1/pom.xml" />
-        <option value="$PROJECT_DIR$/yoga/app-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/yoga/mini-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/yoga/wap-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/course/index-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/course/sass-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/course/manager-controller/pom.xml" />
-        <option value="$PROJECT_DIR$/server/zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/course/course-service/pom.xml" />
-        <option value="$PROJECT_DIR$/modules/order-service/pom.xml" />
-        <option value="$PROJECT_DIR$/modules/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/modules/course-service/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-app-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-mini-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-wap-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-saas-web/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-index-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-course-index-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-course-manager-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-course-saas-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-main-index-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-main-manager-api/pom.xml" />
-        <option value="$PROJECT_DIR$/api/yplus-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/modules/util-module/pom.xml" />
-        <option value="$PROJECT_DIR$/util-module/pom.xml" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/controller/pom.xml" />
-        <option value="$PROJECT_DIR$/course/pom.xml" />
-        <option value="$PROJECT_DIR$/modules/util-module/pom.xml" />
-        <option value="$PROJECT_DIR$/yoga/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>

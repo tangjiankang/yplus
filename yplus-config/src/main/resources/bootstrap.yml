@@ -1,0 +1,91 @@
+#server:
+#  port: 4001
+#
+#spring:
+#  application:
+#    name: yplus-config
+#  profiles:
+#    active: git
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: ${CONFIG_SERVER_URI:https://github.com/zuowj/learning-demos.git}
+#          searchPaths: /config
+#          username: ${CONFIG_SERVER_USERNAME:用户名}
+#          password: ${CONFIG_SERVER_PASSWORD:密码}
+#        git:
+#          uri: https://gitee.com/qh1836/mhis-config.git
+#          default-label: ${spring.profiles.active} #解决监控down
+# 开发的时候暂时先用本地的配置文件， 需要的时候切换成git仓库的就好了
+
+server:
+  port: 4001
+
+spring:
+  application:
+    name: yplus-config
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configs/
+---
+
+spring:
+  profiles: native
+  rabbitmq:
+    host: ${RABBIT_MQ_HOST:localhost}
+    port: ${RABBIT_MQ_PORT:5672}
+    username: ${RABBIT_MQ_USERNAME:guest}
+    password: ${RABBIT_MQ_PASSWORD:guest}
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 20
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:8761}/eureka/
+      registry-fetch-interval-seconds: 10
+
+---
+spring:
+  profiles: dev
+  rabbitmq:
+    host: ${RABBIT_MQ_HOST:localhost}
+    port: ${RABBIT_MQ_PORT:5672}
+    username: ${RABBIT_MQ_USERNAME:guest}
+    password: ${RABBIT_MQ_PASSWORD:guest}
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 20
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:8761}/eureka/
+    registry-fetch-interval-seconds: 10
+---
+spring:
+  profiles: prd
+  rabbitmq:
+    host: ${RABBIT_MQ_HOST:localhost}
+    port: ${RABBIT_MQ_PORT:5672}
+    username: ${RABBIT_MQ_USERNAME:guest}
+    password: ${RABBIT_MQ_PASSWORD:guest}
+  cloud:
+    config:
+      retry:
+        initial-interval: 3000
+        multiplier: 1.5
+        max-interval: 20000
+        max-attempts: 6
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:8761}/eureka/

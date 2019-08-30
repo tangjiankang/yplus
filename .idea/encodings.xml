@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/yplus-app-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/yplus-course-index-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/yplus-course-manager-api" charset="UTF-8" />
@@ -13,12 +15,21 @@
     <file url="file://$PROJECT_DIR$/api/yplus-saas-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/yplus-wap-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/course" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules/course-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules/order-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/modules/user-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/modules/util" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server/server-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server/server-2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server/zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yplus-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yplus-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yplus-gateway/gateway-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yplus-gateway/gateway-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
   </component>
 </project>
